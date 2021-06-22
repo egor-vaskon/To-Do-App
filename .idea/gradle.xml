@@ -9,8 +9,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="/media/hdd/egor/egor/projects/android/ToDoApp" />
-            <option value="/media/hdd/egor/egor/projects/android/ToDoApp/app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

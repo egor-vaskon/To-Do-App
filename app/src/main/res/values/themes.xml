@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Toolbar style. -->
+        <item name="toolbarStyle">@style/Widget.ToDoApp.Toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.ToDoApp.Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+
+    </style>
+
+    <style name="Theme.ToDoApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="theme">@style/ThemeOverlay.ToDoApp.Toolbar</item>
+    </style>
+
+    <style name="Widget.ToDoApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+
+    </style>
+
+</resources>

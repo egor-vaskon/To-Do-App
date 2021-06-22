@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="create_task_button_content_description">Add todo item.</string>
+    <string name="enter_task_text">Enter what you need to do</string>
+    <string name="action_nothing" />
+    <string name="filter">Filter</string>
+    <string name="finished_only">Only finished.</string>
+    <string name="all">All</string>
+    <string name="reversed">Reversed</string>
+    <string name="order_by_content">Order by content</string>
+    <string name="tasks_left" formatted="true">%1$d tasks left</string>
+    <string name="order_by_creation_date">Order by creation date</string>
+    <string name="creation_date" formatted="true">Created %1$s</string>
+</resources>
